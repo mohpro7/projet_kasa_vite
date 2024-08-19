@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+
+.banner-component {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 223px; /* Ajuste la hauteur selon la maquette */
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../../assets/Banner.png');
+  background-size: cover; /* Assure que l'image couvre toute la bannière */
+  background-position: center; /* Centre l'image de fond */
+  border-radius: 20px;
+  position: relative;
+  z-index: 1;
+  color: white; /* Assure que le texte reste blanc */
+}
+
+
+
+
+.banner-component h1 {
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 48px;
+  font-family: 'Montserrat', sans-serif;
+  text-shadow: 
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,  
+    -1px  1px 0 #000,  
+     1px  1px 0 #000; 
+}
