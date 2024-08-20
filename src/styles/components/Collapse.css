@@ -1,0 +1,38 @@
+.collapse {
+    margin-bottom: 20px;
+  }
+  
+  .collapse-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    background-color: #ff6060;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .collapse-arrow {
+    transition: transform 0.3s ease;
+  }
+  
+  .collapse-arrow.open {
+    transform: rotate(180deg); /* Inverse la flèche lorsqu'il est ouvert */
+  }
+  
+  .collapse-content {
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.5s ease; /* Animation d'ouverture/fermeture */
+    padding: 0 10px;
+    border: 1px solid #e3e3e3;
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color: white;
+  }
+  
+  .collapse-content.open {
+    padding: 10px; /* Ajoute un padding une fois ouvert */
+  }
+  

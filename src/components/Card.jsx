@@ -1,19 +1,21 @@
 
 import PropTypes from 'prop-types';
 import '../styles/components/Card.css';
+import { Link } from 'react-router-dom';
 
-const Card = ({ title, cover }) => {
+const Card = ({ id, title, cover }) => {
   return (
-    <div className="card">
+    <Link to={`/logement/${id}`} className="card">
       <img src={cover} alt={title} className="card-image" />
       <div className="card-content">
         <h3>{title}</h3>
       </div>
-    </div>
+    </Link>
   );
 };
 
 Card.propTypes = {
+  id: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
   cover: PropTypes.string.isRequired,
 };
