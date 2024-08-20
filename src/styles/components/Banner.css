@@ -5,14 +5,18 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 223px; /* Ajuste la hauteur selon la maquette */
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../../assets/Banner.png');
-  background-size: cover; /* Assure que l'image couvre toute la bannière */
-  background-position: center; /* Centre l'image de fond */
+  width: 100%;
+  max-width: 1240px;
+  height: 195px; 
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../../assets/Banner.png');
+  background-size: cover; 
+  background-position: center; 
   border-radius: 20px;
   position: relative;
   z-index: 1;
-  color: white; /* Assure que le texte reste blanc */
+  color: white;
+  margin: 0 auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
 }
 
 

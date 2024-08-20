@@ -1,0 +1,34 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px; 
+    background-color: white;
+    max-width: 1240px;
+    margin: 0 auto; 
+  }
+  
+  .logo img {
+    height: 60px; 
+  }
+  
+  .navigation .nav-list {
+    list-style: none; 
+    display: flex;
+    gap: 50px;
+  }
+  
+  .navigation .nav-item a {
+    text-decoration: none; 
+    color: black; 
+    font-size: 24px; 
+    font-weight: 500; 
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+  }
+  
+  .navigation .nav-item a:hover,
+  .navigation .nav-item a.active {
+     
+    border-bottom: 2px solid; 
+  }
+  

@@ -1,4 +1,4 @@
-import '../styles/pages/Banner.css';
+import '../styles/components/Banner.css';
 import PropTypes from 'prop-types';
 
 const Banner = ({ text }) => {
