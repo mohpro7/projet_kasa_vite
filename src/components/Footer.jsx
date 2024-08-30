@@ -1,5 +1,5 @@
 import logoWhite from '../assets/LOGO-white.svg';
-import '../styles/components/Footer.css'
+import '../styles/components/Footer.sass'
 
 const Footer = () => {
   return (

@@ -1,0 +1,128 @@
+.logement-container
+  max-width: 1240px
+  margin: 0 auto
+  padding: 20px
+
+  @media (max-width: 768px)
+    padding: 10px
+
+.logement-gallery
+  display: flex
+  align-items: center 
+  justify-content: center 
+  flex-direction: column
+  width: 100%
+  max-width: 1240px 
+  margin-bottom: 30px
+  box-sizing: border-box 
+  height: auto
+
+.left-arrow img, .right-arrow img
+   
+
+  @media (max-width: 768px)
+    width: 60%
+
+.slideshow-counter
+  display: block 
+
+  @media (max-width: 768px)
+    display: none  
+
+h1
+  color: #ff6060 
+
+.logement-details
+  display: flex
+  justify-content: space-between
+  align-items: center
+  margin-bottom: 20px
+
+  @media (max-width: 768px)
+    flex-direction: column
+    align-items: flex-start
+    gap: 10px
+
+.logement-tags
+  display: flex
+  gap: 10px
+  margin: 10px 0
+
+.tag
+  background-color: #ff6060
+  color: white
+  padding: 5px 10px
+  border-radius: 5px
+  font-size: 14px
+
+.host_rating
+
+  @media (max-width: 768px)
+    display: flex
+    justify-content: space-between
+    align-items: center
+    width: 100%
+
+.logement-host
+  display: flex
+  align-items: center
+  gap: 10px
+
+  @media (max-width: 768px)
+    order: 1
+
+.host-name
+  color: #ff6060 
+
+  @media (max-width: 768px)
+    font-size: 14px  
+    line-height: 1.2 
+
+.host-picture
+  width: 50px
+  height: 50px
+  border-radius: 50%
+
+.logement-rating
+  display: flex
+  gap: 5px
+
+
+.filled-star
+  color: #ff6060
+
+.empty-star
+  color: #e3e3e3
+
+.logement-collapse
+  margin-top: 20px
+  display: flex
+  justify-content: space-between
+  gap: 20px
+
+  @media (max-width: 768px)
+    flex-direction: column
+    gap: 10px 
+
+.collapse-title
+  display: flex
+  justify-content: space-between
+  align-items: center
+  cursor: pointer
+  background-color: #ff6060
+  color: white
+  padding: 10px
+  border-radius: 5px
+
+.collapse-content
+  display: none
+  padding: 10px
+  border: 1px solid #e3e3e3
+  border-radius: 5px
+  margin-top: 10px
+
+  &.open
+    display: block
+
+.collapse
+  flex: 1

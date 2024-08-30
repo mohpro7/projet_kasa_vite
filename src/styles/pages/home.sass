@@ -1,0 +1,101 @@
+.header
+  display: flex
+  justify-content: space-between
+  align-items: center
+  padding: 20px 40px
+  background-color: white
+  max-width: 1240px
+  margin: 0 auto
+
+  .logo img
+    height: 60px 
+
+  .navigation
+    display: flex
+    gap: 20px
+
+    a
+      text-decoration: none
+      color: black
+      font-size: 18px
+      font-weight: 500
+      transition: color 0.3s ease, border-bottom 0.3s ease
+
+      @media (max-width: 768px)
+        font-size: 12px
+
+      &:hover,
+      &.active
+        border-bottom: 2px solid
+
+        @media (max-width: 768px)
+          border-bottom: 1px solid
+
+  @media (max-width: 768px)
+    .logo img
+      height: 30px 
+
+    .navigation
+      gap: 10px
+      flex-wrap: nowrap 
+
+.banner
+  width: 100%
+  max-width: 1240px
+  margin: 0 auto
+  border-radius: 10px
+  overflow: hidden
+  display: flex
+  justify-content: center
+  align-items: center
+  padding: 20px
+
+  h1
+    font-size: 36px 
+    text-align: center
+    color: white
+
+  @media (max-width: 768px)
+    width: 90%
+    height: 111px
+    border-radius: 10px 
+    h1
+      font-size: 24px 
+
+.card-container
+  width: 100%
+  max-width: 1240px
+  margin: 0 auto
+  background-color: #faf6f6
+  border-radius: 10px
+  padding: 40px 0
+
+  @media (max-width: 768px)
+    padding: 20px 0
+    background-color: white
+
+.card-list
+  display: grid
+  grid-template-columns: repeat(auto-fill, 340px)
+  justify-content: center
+  gap: 30px
+
+  @media (max-width: 1024px)
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr))
+    gap: 20px
+
+  @media (max-width: 768px)
+    grid-template-columns: 1fr
+    justify-items: center 
+    gap: 15px
+
+.card-item
+  background: linear-gradient(145deg, #ff6b6b, #ff8e8e)
+  border-radius: 10px
+  padding: 20px
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1)
+
+  @media (max-width: 768px)
+    border-radius: 5px
+    padding: 15px
+    margin-top: 20px

@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import '../styles/components/Slideshow.css';
+import '../styles/components/Slideshow.sass';
 import leftArrow from '../assets/arrow_back.png';
 import rightArrow from '../assets/arrow_forward.png';
 import PropTypes from 'prop-types';
@@ -32,7 +32,7 @@ const Slideshow = ({ pictures }) => {
     </>
   )}
   <div className="slideshow-image">
-    <img src={pictures[currentIndex]} alt={`Slide ${currentIndex + 1}`} />
+    <img src={pictures[currentIndex]} alt={`Slide ${currentIndex + 1} du logement`} />
   </div>
   {pictures.length > 1 && (
     <div className="slideshow-counter">

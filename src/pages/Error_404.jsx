@@ -1,8 +1,8 @@
 
 import { Link } from 'react-router-dom';
 import Layout from '../components/Layout';
-import errorImage from '../assets/404.png'; // Assurez-vous que le chemin est correct
-import '../styles/pages/Error_404.css'; // Assurez-vous que le fichier CSS est correctement importé
+import errorImage from '../assets/404.png';
+import '../styles/pages/Error_404.sass'; 
 
 const ErrorPage = () => {
   return (

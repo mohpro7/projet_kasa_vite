@@ -1,6 +1,6 @@
 
 import PropTypes from 'prop-types';
-import '../styles/components/Card.css';
+import '../styles/components/Card.sass';
 import { Link } from 'react-router-dom';
 
 const Card = ({ id, title, cover }) => {
