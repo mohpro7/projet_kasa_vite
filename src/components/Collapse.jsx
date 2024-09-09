@@ -2,6 +2,7 @@ import { useState, useRef, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import '../styles/components/Collapse.sass';
 
+
 const Collapse = ({ title, children }) => {
   const [isOpen, setIsOpen] = useState(false);
   const contentRef = useRef(null);

@@ -22,9 +22,5 @@ Banner.propTypes = {
     showOverlay: PropTypes.bool,
   };
 
-  Banner.defaultProps = {
-    text: '', 
-    showOverlay: true,
-  };
   
 export default Banner;
